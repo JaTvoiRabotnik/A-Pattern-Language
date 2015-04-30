@@ -1,3 +1,55 @@
+/***************************************************
+ ** A Pattern Language - a graphical visualization
+ **
+ ** Using the dot language
+ ** (http://graphviz.org/content/dot-language)
+ **
+ ** To convert this to ps, use:
+ ** dot -Tps PatternLanguage.dot -o PatternLanguage.ps
+ **
+ ** Work protected under the GNU GENERAL PUBLIC LICENSE
+ ** See attached license file for details
+ **
+ ** This is a transformative work, derived from the book
+ ** A Pattern Language, by Christopher Alexander, et al.
+ **
+ ** Feel free to correct, expand and improve it.
+ **
+ ** If you must get in touch with the original author of this file,
+ ** send an email to Marco (mzanchi@gmail.com)
+ **
+ **/
+
+/*
+ * Style guide
+ *
+ * Define the nodes first, and the relationships later.
+ *
+ * Some patterns on the book have one or two asterisks. These
+ * represent whether a pattern is considered invariant. Here,
+ * one asterisk is represented by shape=octagon, and two asterisks
+ * as shape=doubleoctagon.
+ *
+ * When the name of the label is too long, try to separate it in two
+ * or three lines, by using <br/> tags.
+ *
+ * Colour code related patterns, using a gradual scale. On the book
+ * there are 3 main partitions, and each partition is then subsequently
+ * divided further. It would be nice to represent this structure on the
+ * graph by the use of different hues. The suggestion here is red/yellow
+ * for the first part, green for the second and blue for the third. For a
+ * nice guide to RGB see http://www.rapidtables.com/web/color/RGB_Color.htm
+ *
+ * There are two ways in which the relationships between the patterns appear:
+ * at the beginning of the pattern (as incoming) or at the end of the pattern
+ * (as outgoing). Sadly, these are not aways consistent. For this reason,
+ * whenever a A is mentioned as an input to B, but B is not mentioned as an
+ * output of A, separate it so that it becomes clear where the relationship
+ * came from. This might point to mistakes on the original work, and it would
+ * be nice to be able to identify these.
+ *
+ */
+
 digraph "A Pattern Language" {
   1   [ label=<INDEPENDENT<br/>REGIONS>,
         shape=doubleoctagon
