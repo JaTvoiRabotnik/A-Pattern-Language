@@ -1,0 +1,387 @@
+digraph "A Pattern Language" {
+  1   [ label=<INDEPENDENT<br/>REGIONS>,
+        shape=doubleoctagon
+      ]
+  2   [ label=<THE DISTRIBUTION<br/>OF TOWN>,
+        style=filled,
+        color="#FF0000"
+      ]
+  3   [ label=<CITY COUNTRY<br/>FINGERS>,
+        shape=doubleoctagon,
+        style=filled,
+        color="#FF0000"
+      ]
+  4   [ label=<AGRICULTURAL<br/>VALLEYS>,
+        shape=octagon,
+        style=filled,
+        color="#FF0000"
+      ]
+  5   [ label=<LACE OF<br/>COUNTRY STREETS>,
+        style=filled,
+        color="#FF0000"
+      ]
+  6   [ label=<COUNTRY TOWNS>,
+        shape=octagon,
+        style=filled,
+        color="#FF0000"
+      ]
+  7   [ label=<THE COUNTRYSIDE>,
+        shape=octagon,
+        style=filled,
+        color="#FF0000"
+      ]
+  8   [ label=<MOSAIC OF<br/>SUBCULTURES>,
+        shape=doubleoctagon,
+        style=filled,
+        color="#FF6666"
+      ]
+  9   [ label=<SCATTERED<br/>WORK>,
+        shape=doubleoctagon,
+        style=filled,
+        color="#FF6666"
+      ]
+  10  [ label=<MAGIC OF<br/>THE CITY>,
+        style=filled,
+        color="#FF6666"
+      ]
+  11  [ label=<LOCAL<br/>TRANSPORT AREAS>,
+        shape=doubleoctagon,
+        style=filled,
+        color="#FF6666"
+      ]
+  12  [ label=<COMMUNITY<br/>OF 7000>,
+        shape=octagon,
+        style=filled,
+        color="#FFCCCC"
+      ]
+  13  [ label=<SUBCULTURE<br/>BOUNDARY>,
+        shape=octagon,
+        style=filled,
+        color="#FFCCCC"
+      ]
+  14  [ label=<IDENFITIFIABLE<br/>NEIGHBOURHOOD>,
+        shape=doubleoctagon,
+        style=filled,
+        color="#FFCCCC"
+      ]
+  15  [ label=<NEIGHBOURHOOD<br/>BOUNDARY>,
+        shape=octagon,
+        style=filled,
+        color="#FFCCCC"
+      ]
+  16  [ label=<WEB OF PUBLIC<br/>TRANSPORTATION>,
+        shape=octagon,
+        style=filled,
+        color="#FFE5CC"
+      ]
+  17  [ label=<RING<br/>ROADS>,
+        style=filled,
+        color="#FFE5CC"
+      ]
+  18  [ label=<NETWORK<br/>OF LEARNING>,
+        shape=octagon,
+        style=filled,
+        color="#FFE5CC"
+      ]
+  19  [ label=<WEB OF<br/>SHOPPING>,
+        shape=octagon,
+        style=filled,
+        color="#FFE5CC"
+      ]
+  20  [ label=<MINI-BUSES>,
+        shape=octagon,
+        style=filled,
+        color="#FFE5CC"
+      ]
+  21  [ label=<FOUR-STORY<br/>LIMIT>,
+        shape=doubleoctagon,
+        style=filled,
+        color="#FFB266"
+      ]
+  22  [ label=<NINE PER CENT<br/>PARKING>,
+        shape=doubleoctagon,
+        style=filled,
+        color="#FFB266"
+      ]
+
+  23  [ label=<PARALLEL<br/>ROADS>,
+        style=filled,
+        color="#FFB266"
+      ]
+
+  24  [ label=<SACRED<br/>SITES>,
+        shape=octagon,
+        style=filled,
+        color="#FFB266"
+      ]
+
+  25  [ label=<ACCESS<br/>TO WATER>,
+        shape=octagon,
+        style=filled,
+        color="#FFB266"
+      ]
+
+  26  [ label=<LIFE CYCLE>,
+        shape=octagon,
+        style=filled,
+        color="#FFB266"
+      ]
+
+  27  [ label=<MEN<br/>AND WOMEN>,
+        style=filled,
+        color="#FFB266"
+      ]
+
+
+
+// Outgoing edges for pattern 1
+  1 -> 2
+// As input:
+  1 -> 4
+
+// Outgoing edges for pattern 2
+  2 -> 4
+  2 -> 6
+  2 -> 3
+// As input:
+  2 -> 7
+
+
+// Outgoing edges for pattern 3
+  3 -> 4
+  3 -> 8
+  3 -> 16
+  3 -> 17
+// As input:
+  3 -> 5
+  3 -> 7
+  3 -> 10
+  3 -> 11
+  3 -> 21
+
+// Outgoing edges for pattern 4
+  4 -> 3
+  4 -> 7
+
+// Outgoing edges for pattern 5
+  5 -> 7
+  5 -> 14
+  5 -> 37
+// As input:
+  5 -> 21
+
+// Outgoing edges for pattern 6
+  6 -> 12
+  6 -> 26
+  6 -> 7
+
+// Outgoing edges for pattern 7
+  7 -> 37
+  7 -> 51
+
+// Outgoing edges for pattern 8
+  8 -> 12
+  8 -> 14
+  8 -> 37
+  8 -> 13
+// As input:
+  8 -> 9
+  8 -> 10
+  8 -> 11
+  8 -> 19
+
+// Outgoing edges for pattern 9
+  9 -> 13
+  9 -> 42
+  9 -> 15
+  9 -> 41
+  9 -> 157
+  9 -> 80
+// As input:
+  9 -> 19
+
+// Outgoing edges for pattern 10
+  10 -> 11
+  10 -> 31
+  10 -> 16
+  10 -> 33
+  10 -> 58
+  10 -> 63
+// As input:
+  10 -> 21
+
+// Outgoing edges for pattern 11
+  11 -> 23
+  11 -> 51
+  11 -> 52
+  11 -> 56
+  11 -> 17
+  11 -> 22
+  11 -> 97
+  11 -> 34
+// As input:
+  11 -> 16
+  11 -> 19
+  11 -> 20
+
+// Outgoing edges for pattern 12
+  12 -> 13
+  12 -> 14
+  12 -> 28
+  12 -> 31
+  12 -> 44
+// As input:
+  12 -> 15
+  12 -> 22
+  12 -> 26
+  12 -> 27
+
+// Outgoing edges for pattern 13
+  13 -> 7
+  13 -> 24
+  13 -> 25
+  13 -> 59
+  13 -> 60
+  13 -> 64
+  13 -> 71
+  13 -> 17
+  13 -> 23
+  13 -> 41
+  13 -> 42
+  13 -> 84
+  13 -> 97
+  13 -> 30
+  13 -> 41
+  13 -> 28
+// As input:
+  13 -> 15
+  13 -> 19
+
+// Outgoing edges for pattern 14
+  14 -> 53
+  14 -> 15
+  14 -> 23
+  14 -> 60
+  14 -> 61
+  14 -> 37
+  14 -> 41
+// As input:
+  14 -> 13
+  14 -> 22
+  14 -> 26
+  14 -> 27
+
+// Outgoing edges for pattern 15
+  15 -> 53
+  15 -> 23
+  15 -> 41
+  15 -> 59
+  15 -> 60
+  15 -> 97
+  15 -> 103
+  15 -> 32
+  15 -> 64
+  15 -> 69
+  15 -> 70
+  15 -> 72
+  15 -> 73
+
+// Outgoing edges for pattern 16
+  16 -> 34
+  16 -> 20
+// As input:
+  16 -> 17
+
+// Outgoing edges for pattern 17
+  17 -> 13
+  17 -> 25
+  17 -> 42
+  17 -> 97
+// As input:
+  17 -> 23
+
+// Outgoing edges for pattern 18
+  18 -> 157
+  18 -> 57
+  18 -> 86
+  18 -> 85
+  18 -> 84
+  18 -> 43
+  18 -> 83
+
+// Outgoing edges for pattern 19
+// NONE
+
+// Outgoing edges for pattern 20
+  20 -> 23
+  20 -> 34
+  20 -> 92
+
+// Outgoing edges for pattern 21
+  21 -> 96
+  21 -> 29
+  21 -> 95
+  21 -> 39
+  21 -> 82
+  21 -> 62
+
+// Outgoing edges for pattern 22
+  22 -> 97
+  22 -> 103
+
+// Outgoing edges for pattern 23
+  23 -> 11
+  23 -> 49
+  23 -> 51
+  23 -> 50
+  23 -> 52
+  23 -> 55
+  23 -> 54
+
+// Outgoing edges for pattern 24
+  24 -> 59
+  24 -> 134
+  24 -> 171
+  24 -> 176
+  24 -> 66
+// As input:
+  24 -> 25
+
+// Outgoing edges for pattern 25
+  25 -> 31
+  25 -> 7
+  25 -> 23
+  25 -> 103
+
+// Outgoing edges for pattern 26
+  26 -> 66
+  26 -> 35
+  26 -> 40
+  26 -> 41
+  26 -> 44
+  26 -> 57
+  26 -> 65
+  26 -> 70
+  26 -> 75
+  26 -> 79
+  26 -> 83
+  26 -> 84
+  26 -> 85
+  26 -> 86
+  26 -> 153
+  26 -> 154
+  26 -> 155
+  26 -> 156
+  26 -> 187
+// As input:
+  26 -> 27
+
+// Outgoing edges for pattern 27
+  27 -> 9
+  27 -> 141
+
+// Outgoing edges for pattern 34
+// As input:
+  34 -> 17
+
+}
