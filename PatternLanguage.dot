@@ -38,7 +38,7 @@
  * divided further. It would be nice to represent this structure on the
  * graph by the use of different hues. The suggestion here is red/yellow
  * for the first part, green for the second and blue for the third. For a
- * nice guide to RGB see http://www.rapidtables.com/web/color/RGB_Color.htm
+ * nice guide to RGB see http://www.rapidtables.com/web/fillcolor/RGB_fillcolor.htm
  *
  * There are two ways in which the relationships between the patterns appear:
  * at the beginning of the pattern (as incoming) or at the end of the pattern
@@ -56,134 +56,301 @@ digraph "A Pattern Language" {
       ]
   2   [ label=<THE DISTRIBUTION<br/>OF TOWN>,
         style=filled,
-        color="#FF0000"
+        fillcolor="#FF0000"
       ]
   3   [ label=<CITY COUNTRY<br/>FINGERS>,
         shape=doubleoctagon,
         style=filled,
-        color="#FF0000"
+        fillcolor="#FF0000"
       ]
   4   [ label=<AGRICULTURAL<br/>VALLEYS>,
         shape=octagon,
         style=filled,
-        color="#FF0000"
+        fillcolor="#FF0000"
       ]
   5   [ label=<LACE OF<br/>COUNTRY STREETS>,
         style=filled,
-        color="#FF0000"
+        fillcolor="#FF0000"
       ]
   6   [ label=<COUNTRY TOWNS>,
         shape=octagon,
         style=filled,
-        color="#FF0000"
+        fillcolor="#FF0000"
       ]
   7   [ label=<THE COUNTRYSIDE>,
         shape=octagon,
         style=filled,
-        color="#FF0000"
+        fillcolor="#FF0000"
       ]
   8   [ label=<MOSAIC OF<br/>SUBCULTURES>,
         shape=doubleoctagon,
         style=filled,
-        color="#FF6666"
+        fillcolor="#FF6666"
       ]
   9   [ label=<SCATTERED<br/>WORK>,
         shape=doubleoctagon,
         style=filled,
-        color="#FF6666"
+        fillcolor="#FF6666"
       ]
   10  [ label=<MAGIC OF<br/>THE CITY>,
         style=filled,
-        color="#FF6666"
+        fillcolor="#FF6666"
       ]
   11  [ label=<LOCAL<br/>TRANSPORT AREAS>,
         shape=doubleoctagon,
         style=filled,
-        color="#FF6666"
+        fillcolor="#FF6666"
       ]
   12  [ label=<COMMUNITY<br/>OF 7000>,
         shape=octagon,
         style=filled,
-        color="#FFCCCC"
+        fillcolor="#FFCCCC"
       ]
   13  [ label=<SUBCULTURE<br/>BOUNDARY>,
         shape=octagon,
         style=filled,
-        color="#FFCCCC"
+        fillcolor="#FFCCCC"
       ]
   14  [ label=<IDENFITIFIABLE<br/>NEIGHBOURHOOD>,
         shape=doubleoctagon,
         style=filled,
-        color="#FFCCCC"
+        fillcolor="#FFCCCC"
       ]
   15  [ label=<NEIGHBOURHOOD<br/>BOUNDARY>,
         shape=octagon,
         style=filled,
-        color="#FFCCCC"
+        fillcolor="#FFCCCC"
       ]
   16  [ label=<WEB OF PUBLIC<br/>TRANSPORTATION>,
         shape=octagon,
         style=filled,
-        color="#FFE5CC"
+        fillcolor="#FFE5CC"
       ]
   17  [ label=<RING<br/>ROADS>,
         style=filled,
-        color="#FFE5CC"
+        fillcolor="#FFE5CC"
       ]
   18  [ label=<NETWORK<br/>OF LEARNING>,
         shape=octagon,
         style=filled,
-        color="#FFE5CC"
+        fillcolor="#FFE5CC"
       ]
   19  [ label=<WEB OF<br/>SHOPPING>,
         shape=octagon,
         style=filled,
-        color="#FFE5CC"
+        fillcolor="#FFE5CC"
       ]
   20  [ label=<MINI-BUSES>,
         shape=octagon,
         style=filled,
-        color="#FFE5CC"
+        fillcolor="#FFE5CC"
       ]
   21  [ label=<FOUR-STORY<br/>LIMIT>,
         shape=doubleoctagon,
         style=filled,
-        color="#FFB266"
+        fillcolor="#FFB266"
       ]
   22  [ label=<NINE PER CENT<br/>PARKING>,
         shape=doubleoctagon,
         style=filled,
-        color="#FFB266"
+        fillcolor="#FFB266"
       ]
 
   23  [ label=<PARALLEL<br/>ROADS>,
         style=filled,
-        color="#FFB266"
+        fillcolor="#FFB266"
       ]
 
   24  [ label=<SACRED<br/>SITES>,
         shape=octagon,
         style=filled,
-        color="#FFB266"
+        fillcolor="#FFB266"
       ]
 
   25  [ label=<ACCESS<br/>TO WATER>,
         shape=octagon,
         style=filled,
-        color="#FFB266"
+        fillcolor="#FFB266"
       ]
 
   26  [ label=<LIFE CYCLE>,
         shape=octagon,
         style=filled,
-        color="#FFB266"
+        fillcolor="#FFB266"
       ]
 
   27  [ label=<MEN<br/>AND WOMEN>,
         style=filled,
-        color="#FFB266"
+        fillcolor="#FFB266"
       ]
 
+  28  [ label=<ECCENTRIC<br/>NUCLEUS>,
+        shape=octagon,
+        style=filled,
+        fillcolor="#FF8000"
+      ]
+
+  29  [ label=<DENSITY<br/>RINGS>,
+        shape=octagon,
+        style=filled,
+        fillcolor="#FF8000"
+      ]
+
+  30  [ label=<ACTIVITY<br/>NODES>,
+        shape=doubleoctagon,
+        style=filled,
+        fillcolor="#FF8000"
+      ]
+
+  31  [ label=<PROMENADE>,
+        shape=doubleoctagon,
+        style=filled,
+        fillcolor="#FF8000"
+      ]
+
+  32  [ label=<SHOPPING<br/>STREET>,
+        shape=octagon,
+        style=filled,
+        fillcolor="#FF8000"
+      ]
+
+  33  [ label=<NIGHT<br/>LIFE>,
+        shape=octagon,
+        style=filled,
+        fillcolor="#FF8000"
+      ]
+
+  34  [ label=<INTERCHANGE>,
+        style=filled,
+        fillcolor="#FF8000"
+      ]
+
+  35  [ label=<HOUSEHOLD MIX>,
+        shape=octagon,
+        style=filled,
+        fillcolor="#FFFF99"
+      ]
+
+  36  [ label=<DEGREES OF<br/>PUBLICNESS>,
+        shape=doubleoctagon,
+        style=filled,
+        fillcolor="#FFFF99"
+      ]
+
+  37  [ label=<HOUSE<br/>CLUSTER>,
+        shape=doubleoctagon,
+        style=filled,
+        fillcolor="#FFFF99"
+      ]
+
+  38  [ label=<ROW HOUSES>,
+        shape=octagon,
+        style=filled,
+        fillcolor="#FFFF99"
+      ]
+
+  39  [ label=<HOUSING<br/>HILL>,
+        style=filled,
+        fillcolor="#FFFF99"
+      ]
+
+  40  [ label=<OLD PEOPLE<br/>EVERYWHERE>,
+        shape=doubleoctagon,
+        style=filled,
+        fillcolor="#FFFF99"
+      ]
+
+  41  [ label=<WORK<br/>COMMUNITY>,
+        shape=doubleoctagon,
+        style=filled,
+        fillcolor="#FFFF33"
+      ]
+
+  42  [ label=<INDUSTRIAL<br/>RIBBON>,
+        shape=octagon,
+        style=filled,
+        fillcolor="#FFFF33"
+      ]
+
+  43  [ label=<UNIVERSITIES AS<br/>MARKETPLACE>,
+        style=filled,
+        fillcolor="#FFFF33"
+      ]
+
+  44  [ label=<LOCAL<br/>TOWN HALL>,
+        shape=octagon,
+        style=filled,
+        fillcolor="#FFFF33"
+      ]
+
+  45  [ label=<NECKLACE OF<br/>COMMUNITY PROJECTS>,
+        style=filled,
+        fillcolor="#FFFF33"
+      ]
+
+  46  [ label=<MARKET OF<br/>MANY SHOPS>,
+        shape=doubleoctagon,
+        style=filled,
+        fillcolor="#FFFF33"
+      ]
+
+  47  [ label=<HEALTH<br/>CENTER>,
+        shape=octagon,
+        style=filled,
+        fillcolor="#FFFF33"
+      ]
+
+  48  [ label=<HOUSING<br/>IN BETWEEN>,
+        shape=doubleoctagon,
+        style=filled,
+        fillcolor="#FFFF33"
+      ]
+
+  49  [ label=<LOOPED<br/>LOCAL ROADS>,
+        shape=doubleoctagon,
+        style=filled,
+        fillcolor="#FFFF33"
+      ]
+
+  50  [ label=<T JUNCTIONS>,
+        shape=octagon,
+        style=filled,
+        fillcolor="#FFFF33"
+      ]
+
+  52  [ label=<NETWORK OF<br/>PATHS AND CARS>,
+        shape=doubleoctagon,
+        style=filled,
+        fillcolor="#FFFF33"
+      ]
+
+  53  [ label=<MAIN GATEWAYS>,
+        shape=doubleoctagon,
+        style=filled,
+        fillcolor="#FFFF33"
+      ]
+
+  54  [ label=<ROAD CROSSING>,
+        style=filled,
+        fillcolor="#FFFF33"
+      ]
+
+  55  [ label=<RAISED WALK>,
+        shape=octagon,
+        style=filled,
+        fillcolor="#FFFF33"
+      ]
+
+  56  [ label=<BIKE PATHS<br/>AND RACKS>,
+        shape=octagon,
+        style=filled,
+        fillcolor="#FFFF33"
+      ]
+
+  57  [ label=<CHILDREN IN<br/>THE CITY>,
+        style=filled,
+        fillcolor="#FFFF33"
+      ]
 
 
 // Outgoing edges for pattern 1
